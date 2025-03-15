@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Navbar.module.css'
 const s  = style
-import logo from '../../../../assets/logo.png'
+import logo from '../../../../assets/logo.png' 
 const Navbar = () => {
   return (
     <div className={s.container} >
