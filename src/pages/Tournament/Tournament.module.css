@@ -1,0 +1,38 @@
+.table {
+  padding: 20px;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tournamentTable {
+  width: 80%;
+  color: white;
+}
+
+.tournamentTable th {
+  border: 1px solid #555;
+  padding: 12px;
+  text-align: left;
+}
+.tournamentTable td {
+  border: 1px solid #555;
+  padding: 12px;
+  text-align: left;
+  color: black;
+}
+
+.tournamentTable thead {
+  background-color: #1e1e1e;
+}
+
+.tournamentTable tbody tr {
+  background-color: #ced0d4;
+}
+
+.noData {
+  text-align: center;
+  padding: 20px;
+  color: #ccc;
+}
