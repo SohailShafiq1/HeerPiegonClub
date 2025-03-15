@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./components/NavBar/Navbar";
-import Events from "./components/Events/Events";
+import NameOfCup from "./components/Name of cup/NameOfCup";
+
 
 const home = () => {
   return (
     <div>
       
-     <Events/>
+   <NameOfCup/>
     </div>
   );
 };
