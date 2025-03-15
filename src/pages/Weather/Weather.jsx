@@ -25,10 +25,10 @@ function Weather() {
   }, []);
 
   return (
-    <div className={s["app"]}>
+    <div className={s.weather}>
       <h1>Weather App</h1>
       {weather ? (
-        <div className={s["weather-container"]}>
+        <div className={s.weathercontainer}>
           <h2>
             {weather.name}, {weather.sys.country}
           </h2>
