@@ -1,0 +1,76 @@
+.table {
+  padding: 20px;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tournamentTable {
+  width: 85%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tournamentTable thead {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.tournamentTable th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.tournamentTable td {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+
+.tournamentTable tbody tr {
+  background-color: #e6e6e6;
+  transition: background 0.3s ease-in-out;
+}
+
+.tournamentTable tbody tr:hover {
+  background-color: #d1d3d6;
+}
+
+.tournamentTable tbody tr:nth-child(even) {
+  background-color: #d9dbdd;
+}
+
+.tournamentTable th,
+.tournamentTable td {
+  padding: 14px;
+  border: none;
+}
+
+.tournamentTable th:first-child,
+.tournamentTable td:first-child,
+.tournamentTable th:last-child,
+.tournamentTable td:last-child {
+  width: 8%;
+  text-align: center;
+}
+
+.tournamentTable thead tr:first-child th:first-child {
+  border-top-left-radius: 12px;
+}
+.tournamentTable thead tr:first-child th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.tournamentTable tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+.tournamentTable tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}

@@ -1,14 +1,12 @@
 import React from "react";
-import NameOfCup from "./components/Name of cup/NameOfCup";
-
-
-const home = () => {
+import Events from "./components/Events/Events";
+const Home = () => {
   return (
     <div>
-      
-   <NameOfCup/>
+      <Events />
+      <div>Home</div>
     </div>
   );
 };
 
-export default home;
+export default Home;
