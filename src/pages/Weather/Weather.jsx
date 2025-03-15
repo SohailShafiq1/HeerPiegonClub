@@ -26,7 +26,7 @@ function Weather() {
 
   return (
     <div className={s.weather}>
-      <h1>Weather App</h1>
+      <h1>Weather Details</h1>
       {weather ? (
         <div className={s.weathercontainer}>
           <h2>
