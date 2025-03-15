@@ -54,4 +54,20 @@ margin-top: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 2rem;
+}
+.language button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    width: 50%;
+}
+.language button:hover
+{
+    background-color: #454b52;
+    border-radius: 5rem;
+    
+    height: 100%;
 }
