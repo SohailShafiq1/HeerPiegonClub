@@ -1,10 +1,10 @@
 import React from "react";
-import Events from "./components/Events/Events";
+import NameOfCup from "./components/Name of cup/NameOfCup";
+
 const Home = () => {
   return (
     <div>
-      <Events />
-      <div>Home</div>
+      <NameOfCup />
     </div>
   );
 };
