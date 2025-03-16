@@ -74,3 +74,9 @@
 .tournamentTable tbody tr:last-child td:last-child {
   border-bottom-right-radius: 12px;
 }
+
+@media (max-width: 768px) {
+  .tournamentTable {
+    width: 95%;
+  }
+}
