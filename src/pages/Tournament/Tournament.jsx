@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import styles from "./Tournament.module.css"; // Import CSS Module
+import styles from "./Tournament.module.css";
 
 const Tournament = () => {
   const tournaments = [
