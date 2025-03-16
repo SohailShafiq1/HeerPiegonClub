@@ -3,6 +3,79 @@ import style from './nameofcup.module.css'
 const s = style
 import img from '../../../../assets/p1.jpeg'
 const NameOfCup = () => {
+    const daydata = [
+        {
+          id: 1,
+          name: "Israr Ahmed",
+          img: img, // Replace with actual image path
+          times: ["18:00", "18:00", "18:00", "18:00", "18:00", "18:00", "18:00"],
+          total: "18:00",
+        },
+        {
+          id: 2,
+          name: "Sohail Shafiq",
+          img: img,
+          times: ["17:30", "17:45", "18:00", "17:50", "17:55", "18:05", "18:10"],
+          total: "18:05",
+        },
+        {
+            id: 1,
+            name: "Israr Ahmed",
+            img: img, // Replace with actual image path
+            times: ["18:00", "18:00", "18:00", "18:00", "18:00", "18:00", "18:00"],
+            total: "18:00",
+          },
+          {
+            id: 2,
+            name: "Sohail Shafiq",
+            img: img,
+            times: ["17:30", "17:45", "18:00", "17:50", "17:55", "18:05", "18:10"],
+            total: "18:05",
+          },
+          {
+            id: 1,
+            name: "Israr Ahmed",
+            img: img, // Replace with actual image path
+            times: ["18:00", "18:00", "18:00", "18:00", "18:00", "18:00", "18:00"],
+            total: "18:00",
+          },
+          {
+            id: 2,
+            name: "Sohail Shafiq",
+            img: img,
+            times: ["17:30", "17:45", "18:00", "17:50", "17:55", "18:05", "18:10"],
+            total: "18:05",
+          },
+          {
+            id: 1,
+            name: "Israr Ahmed",
+            img: img, // Replace with actual image path
+            times: ["18:00", "18:00", "18:00", "18:00", "18:00", "18:00", "18:00"],
+            total: "18:00",
+          },
+          {
+            id: 2,
+            name: "Sohail Shafiq",
+            img: img,
+            times: ["17:30", "17:45", "18:00", "17:50", "17:55", "18:05", "18:10"],
+            total: "18:05",
+          },
+          {
+            id: 1,
+            name: "Israr Ahmed",
+            img: img, // Replace with actual image path
+            times: ["18:00", "18:00", "18:00", "18:00", "18:00", "18:00", "18:00"],
+            total: "18:00",
+          },
+          {
+            id: 2,
+            name: "Sohail Shafiq",
+            img: img,
+            times: ["17:30", "17:45", "18:00", "17:50", "17:55", "18:05", "18:10"],
+            total: "18:05",
+          },
+                
+      ];
   return (
     <div className={s.container}>
       <div className={s.top}> 
@@ -49,169 +122,30 @@ const NameOfCup = () => {
       </div>
       <div className={s.bottom}>
       <table className={s.table}>
-        <thead className={s.head}>
-            <tr className={s.tr}>
-                <th className={s.pimg}>Picture</th>
-                <th className={s.pname}>Name</th>
-                <th className={s.th}>1 Pieogons</th>
-                <th className={s.th}>2 Pieogons</th>
-                <th className={s.th}>3 Pieogons</th>
-                <th className={s.th}>4 Pieogons</th>
-                <th className={s.th}>5 Pieogons</th>
-                <th className={s.th}>6 Pieogons</th>
-                <th className={s.th}>7 Pieogons</th>
-                <th className={s.th}> Total</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-            <tr className={s.tr}>
-                <td className={s.pimg}><img src={img} /></td>
-                <td className={s.pname}>Israr Ahmed</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.th}>18:00</td>
-                <td className={s.td}>18:00</td>
-            </tr>
-
-
-        </tbody>
+      <thead className={s.head}>
+        <tr className={s.tr}>
+          <th className={s.pimg}>Picture</th>
+          <th className={s.pname}>Name</th>
+          {[...Array(7)].map((_, i) => (
+            <th key={i} className={s.th}>{i + 1} Piegons</th>
+          ))}
+          <th className={s.th}>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        {daydata.map((person) => (
+          <tr key={person.id} className={s.tr}>
+            <td className={s.pimg}>
+              <img src={person.img} alt={person.name} />
+            </td>
+            <td className={s.pname}>{person.name}</td>
+            {person.times.map((time, index) => (
+              <td key={index} className={s.th}>{time}</td>
+            ))}
+            <td className={s.td}>{person.total}</td>
+          </tr>
+        ))}
+      </tbody>
     </table>
       </div>
     </div>
