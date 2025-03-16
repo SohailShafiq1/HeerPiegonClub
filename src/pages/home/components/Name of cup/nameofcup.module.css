@@ -141,12 +141,10 @@ justify-content: space-around;
 {
     width: 22rem;
     border: 1px solid white;
-    background-color: lightblue;
     height: 4rem;
 
 }.th
 {
     width: 6rem;
     border: 1px solid white;
-    background-color: lightcoral;
 } 
