@@ -8,7 +8,7 @@
   flex-direction: column;
 }
 .Headline {
-    font-weight: 100;
+  font-weight: 100;
 }
 .Boxes {
   display: flex;
@@ -52,4 +52,33 @@
   top: -40px;
   font-size: 1rem;
   margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .LeftBox,
+  .RightBox {
+    width: 200px;
+    height: 150px;
+  }
+  .logo {
+    font-size: 8rem;
+  }
+  .wanumber,
+  .fbname {
+    top: -30px;
+  }
+}
+@media (max-width: 500px) {
+  .LeftBox,
+  .RightBox {
+    width: 150px;
+    height: 100px;
+  }
+  .logo {
+    font-size: 6rem;
+  }
+  .wanumber,
+  .fbname {
+    top: -20px;
+  }
 }
