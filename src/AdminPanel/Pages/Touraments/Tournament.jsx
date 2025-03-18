@@ -11,17 +11,7 @@ const Tournament = () => {
     { name: "Faisalabad" },
     { name: "Rawalpindi" },
     { name: "Multan" },
-    { name: "Gujranwala" },
-    { name: "Sialkot" },
-    { name: "Bahawalpur" },
-    { name: "Sargodha" },
-    { name: "Sheikhupura" },
-    { name: "Jhelum" },
-    { name: "Amritsar" },
-    { name: "Ludhiana" },
-    { name: "Patiala" },
-    { name: "Jalandhar" },
-    { name: "Bathinda" },
+    
   ];
 
   return (
